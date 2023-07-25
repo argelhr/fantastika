@@ -4,10 +4,17 @@
     box-sizing: border-box;
     font-family: 'Roboto Serif', serif;
 }
-a,ul{
+
+a,
+ul {
     text-decoration: none;
     list-style: none;
     color: #ffffff;
+}
+
+h2 {
+    font-family: "Roboto Serif";
+    font-weight: 500;
 }
 
 header {
@@ -26,14 +33,10 @@ header img {
 }
 
 .logo {
+    width: 12vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 12vw;
-}
-
-header div a {
-    color: #ffffff;
 }
 
 .header-nav {
@@ -41,11 +44,10 @@ header div a {
 }
 
 .header-nav ul {
-    list-style: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: row;
 }
 
 .whats,
@@ -54,32 +56,29 @@ header div a {
 }
 
 .boasVindas {
-    background-size: cover;
-    background-image: url(./assets/dog-rosa.png);
-    background-position: center;
-
     display: flex;
     align-items: flex-end;
     justify-content: center;
     height: 120vh;
+
+    background-image: url(./assets/dog-rosa.png);
+    background-size: cover;
+    background-position: center;
 
     text-align: center;
     color: #ffffff;
 }
 
 .boasVindas div {
-    display: flex;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: column;
+
     font-size: 51px;
 }
 
-h2 {
-    font-family: "Roboto";
-    font-weight: 500;
-}
 
 .boasVindas figure img {
     margin: 10px;
@@ -87,35 +86,38 @@ h2 {
 }
 
 .banhoETosa {
+    height: 150vh;
+    padding: 60px;
+
+    display: flex;
+    align-items: center;
+
+    background-size: cover;
     background-image: url(./assets/dog-leao.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: cover;
-    height: 150vh;
+
     color: #3A342F;
-    padding: 60px;
-    display: flex;
-    align-items: center;
 }
 
 .banhoETosa div {
+    width: 400px;
+    height: 35%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 27px;
+
     text-align: left;
-    width: 400px;
-    height: 35%;
+    font-size: 27px;
 }
 
 .banhoETosa div h2 {
-    font-family: "Roboto Serif","Roboto",sans-serif;
     font-size: 44px;
     font-weight: bold;
 }
 
-.banhoETosa div p{
-    font-family: "Roboto",sans-serif;
+.banhoETosa div p {
+    font-family: "Roboto", sans-serif;
     font-size: 27px;
     line-height: 150%;
 }
@@ -127,10 +129,11 @@ h2 {
 
     width: 250px;
     height: 80px;
-
     border-radius: 45px;
+
     font-size: 27px;
     font-family: "Roboto";
+    font-weight: bold;
 }
 
 .mordomia {
@@ -162,7 +165,9 @@ h2 {
 
 }
 
-.mordomia div p{
+.mordomia div p {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
     line-height: 150%;
 }
 
@@ -174,7 +179,8 @@ h2 {
     width: 250px;
     height: 80px;
     font-size: 27px;
-    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
 
     border: none;
     border-radius: 45px;
@@ -196,39 +202,41 @@ h2 {
 .texto {
     color: #FD6A9A;
     font-style: italic;
-    font-size: 24px;
+    font-size: 32px;
 }
 
-footer{
-    background-color: #EB4A7B;
-    color: #FFFFFF;
+footer {
     height: 50vh;
+    padding: 60px;
+
     display: flex;
-    align-items:center ;
-    padding: 60px
+    align-items: center;
+
+    color: #FFFFFF;
+    background-color: #EB4A7B;
 }
-.footer-container{
-    display: flex; 
-    justify-content: space-around;   
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
     width: 50vw;
 }
 
-.coluna-footer{
+.coluna-footer {
     height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.coluna-footer h3{
-    font-family: "Roboto Serif";
+.coluna-footer h3 {
     font-size: 24px;
 }
 
-.coluna-footer ul{
+.coluna-footer ul {
     height: 55%;
-    font-family: "Roboto";
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: "Roboto";
 }
