@@ -329,4 +329,21 @@ footer {
         padding: 12px;
     }
 
+    footer{
+        justify-content: center;
+        height: 100%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .coluna-footer{
+        text-align: center;
+        height: 100%;
+        margin:20px;
+    }
+
+    
+
 }
