@@ -302,7 +302,8 @@ footer {
     .mordomia div h2 {
         font-size: 32px;
     }
-    .mordomia div p{
+
+    .mordomia div p {
         font-size: 20px;
     }
 
@@ -312,6 +313,20 @@ footer {
         height: 60px;
 
         font-size: 21px;
+    }
+
+    .apoio {
+        text-align: center;
+        height: 150px;
+    }
+
+    .apoio .container {
+        flex-direction: column;
+    }
+
+    .texto,
+    .apoio .container div img {
+        padding: 12px;
     }
 
 }
